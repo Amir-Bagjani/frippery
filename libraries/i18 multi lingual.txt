@@ -1,0 +1,5 @@
+npm install react-i18next i18next
+
+
+
+https://medium.com/how-to-react/setup-multilingual-in-react-js-using-i18n-module-33b1bfbb57cd

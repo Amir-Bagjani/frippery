@@ -1,0 +1,23 @@
+.signup-form{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signup-form .auth-form {
+    max-width: 360px;
+    padding: 40px 25px;
+    border: 1px solid #ddd;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.15);
+    background: #fff;
+}
+.signup-form .auth-form > p{
+    margin-top: 1rem;
+}
+.signup-form .auth-form > p a{
+    color: var(--primary-color);
+}
+.signup-form .auth-form > p a:hover{
+    text-decoration: underline;
+}

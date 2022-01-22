@@ -1,0 +1,25 @@
+npm add react-toastify
+
+import {toast} from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+
+//toast
+toast.configure()
+
+//inside body function
+const notify = ()=>{
+        toast.warning('Danger')
+        toast.success('successful')
+        toast.info('GeeksForGeeks')
+        toast.error('Runtime error')
+        toast('Hello Geeks')
+    }
+
+<button  onClick={notify}>toast</button>
+
+///*********/////
+
+https://www.geeksforgeeks.org/reactjs-toast-notification/
+
+///*********/////
